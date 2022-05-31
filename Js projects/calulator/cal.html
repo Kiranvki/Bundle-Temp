@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="assets/js/calc.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/media/media.css">
+
+
+</head>
+
+<body>
+    <section class="container">
+        <div class="title">
+            <h5>Calculator</h5>
+        </div>
+        <div class="display">
+            <input type="text" id="disp" disabled>
+        </div>
+        <div class="common">
+            <div class="btn">
+                <button class="btn1" value="7" onclick="display(7)">7</button>
+                <button class="btn1" value="8" onclick="display('8')">8</button>
+                <button class="btn1" value="9" onclick="display('9')">9</button>
+                <button class="btn2" value="+" onclick="display('+')">+</button>
+            </div>
+            <div class="btn">
+                <button class="btn1" value="4" onclick="display('4')">4</button>
+                <button class="btn1" value="5" onclick="display('5')">5</button>
+                <button class="btn1" value="6" onclick="display('6')">6</button>
+                <button class="btn2" value="-" onclick="display('-')">-</button>
+            </div>
+            <div class="btn">
+                <button class="btn1" value="1" onclick="display('1')">1</button>
+                <button class="btn1" value="2" onclick="display('2')">2</button>
+                <button class="btn1" value="3" onclick="display('3')">3</button>
+                <button class="btn2" value="*" onclick="display('*')">*</button>
+            </div>
+            <div class="btn">
+                <button class="btn2" value="C" onclick="clr()">C</button>
+                <button class="btn1" value="0" onclick="display('0')">0</button>
+                <button class="btn2" value="/" onclick="display('/')">/</button>
+                <button class="btn3" id="sub" onclick="solve()">=</button>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

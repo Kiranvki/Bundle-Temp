@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+    <script src="assets/js/form.js"></script>
+</head>
+
+<body>
+    <section class="container">
+        <div class="formcontainer">
+            <h2>Contact Form</h2>
+            <form action=" " method="post">
+                <div>
+                    <label for="" class="txt">FullName</label><br>
+                    <input type="text" class="txt1" name="FullName" id="Fname" onkeyup="validate()">
+                    <br>
+                    <span id="out"></span>
+                </div>
+                <label for="" class="txt">Email ID</label><br>
+                <input type="text" class="txt1" name="email" id="email" onkeyup="validate1()"><br>
+                <span id="out1"></span>
+                <div>
+                    <label for="" class="txt">Mobile Number</label><br>
+                    <input type="text" class="txt1" name="Mobile" id="Mobile" onkeyup="validate2()"><br>
+                    <span id="out2"></span>
+                </div>
+                <div>
+                    <label for="" class="txt">City</label><br>
+                    <select name="City" id="city" class="sec">
+                        <option value="null">Choose City Name</option>
+                        <option value="1">Bangalore</option>
+                        <option value="2">Delhi</option>
+                        <option value="3">Mumbai</option>
+                        <option value="3">Chennai</option>
+                    </select>
+                </div>
+                <div class="radio">
+                    <label for="" class="txt">Gender</label><br>
+                    <input type="radio" id="male" name="gender" value="Male">Male
+                    <input type="radio" id="female" name="gender" value="female">Female
+                </div>
+                <div class="radio1">
+                    <label for="" class="txt">Languages (Optional)</label><br>
+                    <input type="checkbox">Kannada
+                    <input type="checkbox">English
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">Telugu
+                </div>
+                <div class="btn">
+                    <input type="submit" onsubmit="Login(event)">
+                    <input type="reset">
+                </div>
+        </div>
+        </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

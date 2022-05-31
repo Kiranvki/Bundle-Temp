@@ -1,0 +1,45 @@
+/* mobile View */
+@media(max-width:768px) {
+    .container {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        /* overflow: hidden; */
+    }
+    .title {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    .display>input[type="text"] {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        text-align: center; 
+    }
+    .btn {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .btn>.btn1,.btn>.btn2,.btn>.btn3 {
+        position: relative;
+        top: 0;
+        left: 10px;
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+    }
+}

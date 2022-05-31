@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: none;
+    border: none;
+
+}
+
+.container1,
+.container2 {
+    width: 300px;
+    height: 450px;
+    /* overflow: hidden; */
+    margin: 50px;
+    /*padding: 20px; */
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px black;
+
+}
+
+.container1>img,
+.container2>img {
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container1>img:hover {
+    transform: scale(1.1);
+}
+
+.content>h2,
+.content>h3 {
+    text-align: center;
+}
+
+.content>p {
+    /* text-align: justify; */
+    text-indent: 30px;
+    text-align: center;
+}
+
+.content1{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.fa-facebook-f,
+.fa-instagram-square,
+.fa-twitter-square {
+    margin-right: 30px;
+}
+
+.content2>h5 {
+    padding: 10px;
+    color: brown;
+}
+
+.content2>p {
+    padding: 5px;
+}
+
+.content2>h2 {
+    padding: 5px;
+    margin: 5px;
+}
+.content3{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.content3>button{
+    background: brown;
+    color: white;
+    position: absolute;
+    left: 40px;
+    padding: 3px;
+}

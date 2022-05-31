@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+header>nav {
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.19), 0 1px 1px rgba(0, 0, 0, 0.23);
+}
+
+header>nav>ul {
+    position: absolute;
+    display: flex;
+    float: right;
+    list-style-type: none;
+    left: 500px;
+    top: 30px;
+}
+
+header>nav>ul>li {
+    padding: 13px;
+    margin: 0 10px;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+header>nav>ul>li>a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #98dacd;
+}
+
+.section {
+    padding: 15x;
+    margin: 12px;
+}
+
+.fa-cart-shopping,
+.fa-magnifying-glass,
+.fa-dash {
+    margin-right: 15px;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.container1>h1 {
+    font-size: 40px;
+}
+
+.container1>span {
+    font-size: 15px;
+    font-weight: bold
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    width: 70%;
+    position: absolute;
+    left: 11%;
+}
+.image>img {
+    width: 150px;
+    height: 150px;
+}
+
+.container1>img:hover {
+    transform: scale(1.1);
+}
+.content>h2,.content>h3,.content>p,.content>span{
+    text-align: center;
+}
+.content1 { 
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.fa-facebook-f,
+.fa-instagram-square,
+.fa-twitter-square {
+    margin-right: 10px;
+}
+.image{
+    margin: 20px 0;
+}
+.one>img,.two>img,.three>img{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-45deg);
+    object-fit :contain;
+    background: none;
+}
+.one,.two,.three{
+    transform: rotate(45deg);
+    width: 180px;
+    height: 180px;
+    position: relative;
+    /* left: 5px; */
+    background-color: #ebebeb;
+    margin-bottom: 50px;
+    /* left: 10px; */
+}
+.content>h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.content>p{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.container3{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+.container3>button{
+border: none;
+text-transform: uppercase;
+font-family: monospace;
+font-size: 15px;
+
+}
+
+

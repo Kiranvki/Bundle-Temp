@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+.container{
+    min-height: 500px;
+    position: absolute;
+    top:0px;
+    left:5%;
+    width: 500px;
+    text-align: center;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 20px;
+}
+.container>h1{
+padding: 20px;
+margin: 10px 0px;
+display: block;
+font-size: 40px;
+text-decoration: underline;
+}
+.container>h1:hover{
+    letter-spacing: 3px;
+}
+.formContainer{
+    width: 100%;
+    height: 500px;
+    
+}
+.formContainer>div{
+    padding: 20px;
+    width: 85%;
+    margin: 10px;
+}
+.formContainer>div{
+    padding: 20px;
+    margin: 10px;
+}
+.formContainer>div>label {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.formContainer>div>input[type="text"] {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+.formContainer>div>input[type="number"] {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+.btn{
+    text-align: center;
+    display: block;
+}
+.btn>input[type="button"]{
+    padding: 10px;
+    background-color: rgb(42, 168, 42);
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn>input[type="reset"]{
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(89, 152, 245);
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn>input[type="reset"]:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    letter-spacing: 3px;
+}
+.btn>input[type="button"]:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    letter-spacing: 3px;
+}
+.container2{
+position: absolute;
+left: 50%;
+
+}
+.tableContainer{
+    padding: 20px;
+    margin: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 500px;
+}
+tr{
+    z-index: 1;
+}
+tr>th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Cambria Math;
+    text-transform:capitalize;
+}
+table>tr>th>button{
+    width: 100px;
+}
+#btn1{
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(51, 190, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#btn2{
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(250, 91, 62);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+tbody>tr>td>button{
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(51, 190, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
