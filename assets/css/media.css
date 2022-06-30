@@ -1,3 +1,26 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+    .image-container {
+        height: 200px !important;
+    }
+    main {
+        margin-top: 30px;
+    }
+    .mobile {
+        margin-left: 20px;
+    }
+   .delivery{
+    margin: 0px 0px 0px 40px;
+   }
+   .button-section>input {
+    border: 1px solid black !important;
+    padding-top: 30px;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+}
+
+
 @media (max-width:768px) {
     .pricing-header {
         width: 100% !important;
@@ -75,27 +98,34 @@
     .pricing-header {
         width: 100% !important;
     }
+
     .image-container {
         height: 450px;
     }
+
     main {
         margin-top: 50px;
     }
+
     .instalation {
         /* margin-top: 40px; */
         margin: 40px 0px 70px 0px !important;
     }
+
     .mobile {
         /* margin-left: 60px; */
         margin: 50px 0px 0px 60px;
     }
+
     .mt-6 {
         margin-top: 40px;
     }
+
     .delivery {
         margin: 0px 0px 0px 40px;
     }
-   .w-50{
-    width: 75% !important;
-   }
+
+    .w-50 {
+        width: 75% !important;
+    }
 }
