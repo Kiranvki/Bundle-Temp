@@ -29,13 +29,12 @@
     font-weight: bold;
 }
 
-/* header{
-    background:rgb(242, 245, 247) !important ;
-} */
-.button-section>button,
+
+.button-section>button{
+    border: 1px solid black !important;
+}
 .button-section>input {
     border: 1px solid black !important;
-    border-radius: 0px;
 }
 
 .button-section>button:nth-child(1) {
